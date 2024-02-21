@@ -1,0 +1,76 @@
+header .navbar {
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 3rem;
+}
+
+/* HERO START */
+.hero {
+  height: 150vh;
+}
+
+.hero .container-md {
+  width: 100%;
+  position: relative;
+}
+
+.bg-hero {
+  height: 150vh;
+}
+
+.bg-hero .img1,
+.bg-hero .img2 {
+  height: 22rem;
+}
+
+.btn .ai-cart {
+  font-size: 2rem;
+}
+
+.btn .ai-cart span {
+  top: 35%;
+  left: 90%;
+}
+
+.text-hero {
+  padding: 13rem 0 0 3rem;
+  height: max-content;
+  width: 50%;
+}
+
+.text-hero h1 {
+  font-size: 4rem;
+}
+
+.order-hero{
+    padding: 7px 30px 7px 0px;
+}
+
+.order-hero div {
+  margin: 0 7px 0 10px;
+}
+
+.order-hero div .ai-cart {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.tombol-hero a{
+    margin-left: 3rem;
+}
+
+.right-hero .image{
+  margin-top: 10rem;
+  background-color: aqua;
+  border-radius: 100%;
+  width: max-content;
+  margin-left: 10rem;
+  padding: 2rem 4rem 4rem 4rem;
+}
+
+.right-hero .image img{
+    height: 15rem;
+    width: 15rem;
+}
+
+/* HERO END */
