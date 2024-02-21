@@ -17,7 +17,7 @@
 
     <!-- Navbar Start -->
     <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg bg-transparant mt-3 ">
+      <nav class="navbar navbar-expand-lg bg-transparant pt-3 ">
         <div class="container-fluid col-md-12">
           <a class="navbar-brand col-lg-3 ps-5" href="#">
             <img
@@ -67,8 +67,8 @@
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <section class="hero">
-      <div class="h-100 d-flex">
+    <section class="hero ">
+      <div class="h-100 ">
 
         <!-- BG_HERO -->
         <div class="bg-hero col-md-12 d-flex justify-content-between position-absolute">
@@ -80,12 +80,12 @@
           </div>
         </div>
 
-        <div class="left-hero position-relative h-100 w-100 d-flex ">
+        <div class="left-hero position-relative h-auto w-100 d-flex ">
 
           <!-- TEXT HERO -->
           <div class="text-hero col-lg-6">
             <h1 class="pb-3">Enjoy Your Coffee Before Your Activity</h1>
-            <p class="fs-4 w-75">Boost your productivety and build your mood with glass off coffeein the morning</p>
+            <p class="fs-4 w-75">Boost your productivety and build your mood with glass of coffeein the morning</p>
 
             <!-- TOMBOL HERO -->
             <div class="tombol-hero d-flex align-items-center fw-bold">
@@ -103,22 +103,60 @@
             <div class="right-hero w-100 h-50">
 
               <!-- IMG HERO -->
-              <div class="image position-relative justify-content-center align-items-start d-flex h-auto">
+              <div class="image position-absolute z-0 justify-content-center align-items-start d-flex h-auto">
                 <img src="img/Images-20240216T065918Z-001/Images/coffe-glass.png" alt="product-7" class="">
               </div>
 
               <!-- PRICE HERO -->
-              <div class="price-hero position-absolute d-inline h-auto">
-                <div class="w-100">
-                  <p>Cappuccino</p>
+              <div class="price-hero position-relative z-2 d-inline h-100 w-100 text-center align-items-center d-flex">
+                <div class="price w-100 h-100 fw-bold">
+                  <div class="jenis text-start ">
+                    <div class="shadow p-3 mb-2 px-1 rounded-5 py-1 justify-content-center d-flex align-content-center">
+                      <p class="bg-light px-5 rounded-5 py-md-2">Cappuccino</p>
+                    </div>
+                  </div>
+              
+
+                  <div class="reting-hero text-end d-flex ">
+                    <div class="shadow p-3 mb-2 px-2 rounded-5 py-2 justify-content-center align-content-center">
+                      <div class="d-flex bg-light px-md-4 justify-content-center align-items-center rounded-5 py-md-2">
+                        <p>4.8</p>
+                        <i class="ai ai-star"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="harga-hero text-start">
+                    <div class="shadow p-3 mb-2 px-md-2 rounded-5 py-2">
+                      <p class="bg-light px-md-5 rounded-5 py-md-2">18K</p>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <!-- PRICE HERO -->
+
             </div>
           </div>
         </div>
+
+        <!-- Popular now -->
+        <div class="popular-now position-relative">
+          <p class="fs-2">Popular Now</p>
+          <div class="contain-popular w-100 h-50">
+            <!-- <div>a</div>
+            <div>a</div>
+            <div>a</div> -->
+          </div>
+        </div>
+
       </div>
     </section>
     <!-- Hero End -->
+
+    <!-- Service Start -->
+    <section class="service">
+    </section>
+    <!-- Service End -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -130,5 +168,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js"></script>
   </body>
 </html>
