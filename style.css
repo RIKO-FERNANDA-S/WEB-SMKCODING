@@ -18,6 +18,7 @@ header .navbar.bg-nav-down {
 .hero {
   height: 150vh;
   background-color: antiquewhite;
+
 }
 
 .hero .container-md {
@@ -27,6 +28,7 @@ header .navbar.bg-nav-down {
 
 .bg-hero {
   height: 140vh;
+  z-index: 0;
 }
 
 .bg-hero .img1,
@@ -96,7 +98,7 @@ header .navbar.bg-nav-down {
 
 .jenis div {
   content: "";
-  background-color: rgba(204, 190, 190, 0.404);
+  backdrop-filter: blur(5px);
   height: max-content;
 }
 
@@ -115,7 +117,7 @@ header .navbar.bg-nav-down {
 
 .reting-hero div {
   content: "";
-  background-color: rgba(204, 190, 190, 0.404);
+  backdrop-filter: blur(5px);
   font-size: 1.5rem;
 }
 .reting-hero div .d-flex p {
@@ -134,7 +136,7 @@ header .navbar.bg-nav-down {
 }
 .harga-hero div {
   content: "";
-  background-color: rgba(204, 190, 190, 0.404);
+  backdrop-filter: blur(5px);
 }
 
 .harga-hero p {
@@ -143,20 +145,86 @@ header .navbar.bg-nav-down {
   font-size: 1.5rem;
 }
 
+
+
 /* POPULAR NOW */
 .popular-now{
   margin-top: 10rem;
-  padding: 0 7rem 0 7rem;
 }
 
 .popular-now p{
   font-weight: 700;
-}
-.popular-now div{
-  background-color: blueviolet;
+  margin-left: 7rem;
 }
 
-/* POPULAR NOW */
+
+.popular-now .contain-popular .bg-popular{
+  content: "";
+  width: 85rem;
+  height: 25rem;
+  background-color: rgb(160, 228, 143);
+  margin-top: 7rem;
+  border-radius: 4rem;
+  padding: 0 3rem 0 3rem;
+}
+
+.box-product{
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.356);
+  position: relative;
+  padding: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.product{
+  width: max-content;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.img-product img{
+  width: 20rem;
+  height: auto;
+}
+
+.rating-popular{
+  height: 100%;
+  width: max-content;
+  z-index: 4;
+  padding: 5px;
+  background-color: rgba(245, 245, 245, 0.418);
+}
+
+.rating-popular .d-flex{
+  padding: 2px 12px 2px 12px;
+}
+
+.text-product{
+  margin-top: 13rem;
+  width: 20rem;
+}
+
+.cart .ai-cart{
+  padding: 5px 10px 5px 10px ;
+}
+
+.items-popular{
+  justify-content: center;
+  align-items: center;
+}
+
+.ap{
+  font-weight: bold;
+  color: rgb(255, 148, 9);
+}
+
+
+
+/* POPULAR NOW END*/
 
 
 
