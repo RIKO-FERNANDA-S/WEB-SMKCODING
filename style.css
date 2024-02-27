@@ -233,7 +233,30 @@ header .navbar.bg-nav-down {
 /* SERVICE START */
 
 .service{
-  height: 100vh;
+  height: 150vh;
+  padding-top: 25rem;
+}
+
+.content-service{
+  gap: 8rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.img-service{
+  width: max-content;
+}
+
+.img{
+  width: 15rem;
+  background-color: aqua;
+}
+
+.img-service img{
+  width: 13rem ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 /* SERVICE END */
