@@ -109,7 +109,7 @@ header .navbar.bg-nav-down {
 }
 
 .reting-hero {
-  padding-right: 12rem;
+  padding-right: 10rem;
   justify-content: end;
   width: 100%;
   height: max-content;
@@ -233,7 +233,7 @@ header .navbar.bg-nav-down {
 /* SERVICE START */
 
 .service{
-  height: 150vh;
+  height: 140vh;
   padding-top: 25rem;
 }
 
@@ -260,3 +260,12 @@ header .navbar.bg-nav-down {
 }
 
 /* SERVICE END */
+
+
+/* RESPONSIVE */
+
+@media (min-width:1600px){
+  .reting-hero{
+    padding-right: 17rem;
+  }
+}

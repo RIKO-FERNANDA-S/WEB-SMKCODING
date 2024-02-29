@@ -1,1 +1,192 @@
-/*# sourceMappingURL=style.css.map */
+.about {
+  height: 100vh;
+  width: 100%;
+  padding-top: 3rem;
+}
+.about .p {
+  width: 100%;
+  height: 100vh;
+}
+.about .p .bg-img-about {
+  width: 100%;
+  position: absolute;
+  opacity: 0.3;
+  background-color: rgba(219, 202, 156, 0.952);
+  margin-top: 5rem;
+  padding: 20px 0 20px 0;
+}
+.about .p .content-about {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.about .p .content-about .text-about {
+  position: relative;
+  display: inline-flex;
+  justify-content: start;
+  text-align: start;
+  width: 50%;
+  height: auto;
+  align-items: center;
+  margin-top: 6rem;
+}
+.about .p .content-about .text-about div {
+  width: 29rem;
+}
+.about .p .content-about .text-about div h1 {
+  font-weight: 700;
+}
+.about .p .content-about .text-about div h1 span {
+  border-bottom: 5px solid #dde032;
+}
+.about .p .content-about .text-about div h3 {
+  margin: 2rem 0 2rem 0;
+  font-weight: 700;
+}
+.about .p .content-about .text-about div p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #79795d;
+}
+.about .p .content-about .text-about div button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border-color: transparent;
+  background-color: #49491c;
+  color: #dde032;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+.about .p .content-about .img-about {
+  width: 50%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.about .p .content-about .img-about .imgAbout {
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: rgba(240, 248, 255, 0.342);
+  border-radius: 10px;
+}
+.about .p .content-about .img-about img {
+  width: 22rem;
+  height: auto;
+  margin: 10px;
+}
+
+.menu {
+  height: 150vh;
+  margin-bottom: 2rem;
+}
+.menu .container p {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+.menu .container p span {
+  border-bottom: 7px solid #dde032;
+}
+.menu .container .menu-product {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.menu .container .menu-product .container-product {
+  width: -moz-max-content;
+  width: max-content;
+  height: 29rem;
+  border-radius: 2rem;
+}
+.menu .container .menu-product .container-product .rating-menu1 {
+  background-color: rgba(0, 255, 255, 0.39);
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 6px 5px 6px;
+  border-radius: 2rem;
+  margin: 0.3rem 0 0 0.5rem;
+}
+.menu .container .menu-product .container-product .rating-menu1 .rating-menu {
+  display: flex;
+  z-index: 8;
+  text-align: center;
+  justify-content: center;
+  background-color: aliceblue;
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 5px 12px 5px 12px;
+  border-radius: 2rem;
+}
+.menu .container .menu-product .container-product .rating-menu1 .rating-menu p {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+.menu .container .menu-product .container-product .rating-menu1 .rating-menu .star {
+  color: #dde032;
+  margin-left: 6px;
+}
+.menu .container .menu-product .container-product .img-menu {
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: -moz-max-content;
+  width: max-content;
+  z-index: -1;
+  border-radius: 1rem;
+}
+.menu .container .menu-product .container-product .img-menu img {
+  width: 20rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.menu .container .menu-product .container-product .name-product {
+  display: flex;
+  margin-top: 14rem;
+  justify-content: space-between;
+  width: 20rem;
+}
+.menu .container .menu-product .container-product .name-product h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.menu .container .menu-product .container-product .decribe-menu {
+  width: 20rem;
+  display: flex;
+  margin-top: 0.2rem;
+}
+.menu .container .menu-product .container-product .decribe-menu .decribe {
+  padding-right: 3rem;
+  width: 17rem;
+}
+.menu .container .menu-product .container-product .decribe-menu .decribe p {
+  color: rgb(96, 131, 131);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 30px;
+}
+.menu .container .menu-product .container-product .decribe-menu .icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu .container .menu-product .container-product .decribe-menu .icon a {
+  border-radius: 100%;
+  background-color: #b5b82b;
+  padding: 0.5rem;
+  margin-top: 10px;
+}
+.menu .container .menu-product .container-product .decribe-menu .icon a i {
+  padding: 0.5rem;
+  font-size: 20px;
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */

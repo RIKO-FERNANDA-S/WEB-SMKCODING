@@ -1,2 +1,204 @@
 @import 'modules/variable';
 
+.about{
+    height: 100vh;
+    width: 100%;
+    padding-top: 3rem;
+    .p{
+        width: 100%;
+        height: 100vh;
+
+        .bg-img-about{
+            width: 100%;
+            position: absolute;
+            opacity: 0.3;
+            background-color: rgba(219, 202, 156, 0.952);
+            margin-top: 5rem;
+            padding: 20px 0 20px 0;
+            
+        }
+
+        .content-about{
+
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+                    .text-about{
+                        position: relative;
+                        display: inline-flex;
+                        justify-content: start;
+                        text-align: start;
+                        width: 50%;
+                        height: auto;
+                        align-items: center;
+                        margin-top: 6rem;
+
+                        div{
+                            width: 29rem;   
+                            h1{
+                                font-weight: 700;
+                                span{
+                                    border-bottom: 5px solid #dde032;
+                                }
+                            }
+                            h3{
+                                margin: 2rem 0 2rem 0;
+                                font-weight: 700;
+                            }         
+                            p{
+                                font-size: 1.3rem;
+                                font-weight: 400;
+                                color: #79795d;
+                            }
+                            button{
+                                width: 10rem;
+                                height: 3rem;
+                                border-radius: 2rem;
+                                border-color: transparent;
+                                background-color: #49491c;
+                                color: #dde032;
+                                font-weight: 500;
+                                margin-top: 1.5rem;
+                            }                
+                        }
+                        
+                    }
+            
+                    .img-about{
+                        width: 50%;
+                        height: auto;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+
+                        .imgAbout{
+                            width: max-content;
+                            height: max-content;
+                            background-color: rgba(240, 248, 255, 0.342);
+                            border-radius: 10px;
+                        }
+                        
+                        img{
+                            width: 22rem;
+                            height: auto; 
+                            margin:10px;
+                        }
+                    }
+            
+        }
+    }
+}
+
+.menu{
+    height: 150vh;
+    margin-bottom: 2rem;
+    .container{
+        p{
+            font-size: 3rem;
+            margin-bottom: 4rem;
+            font-weight: 500;
+            span{
+                border-bottom: 7px solid #dde032;
+            }
+        }
+        .menu-product{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            gap: 3rem;
+            flex-wrap: wrap;
+            .container-product{
+                width: max-content;
+                height: 29rem;
+                border-radius: 2rem;
+                .rating-menu1{
+                    background-color: rgba(0, 255, 255, 0.39);
+                    width: max-content;
+                    padding: 5px 6px 5px 6px ;
+                    border-radius: 2rem;
+                    margin: 0.3rem 0 0 0.5rem;
+                    .rating-menu{
+                        display: flex;
+                        z-index: 8;
+                        text-align: center;
+                        justify-content: center;
+                        background-color: aliceblue;
+                        width: max-content;
+                        height: min-content;
+                        padding: 5px 12px 5px 12px;
+                        border-radius: 2rem;
+                        p{
+                            font-size: 1.1rem;
+                            margin: 0;
+                            padding: 0;
+                            font-weight: 700;
+                        }
+                        .star{
+                            color: #dde032;
+                            margin-left: 6px;
+                        }
+                    }
+                }
+                .img-menu{
+                    position: absolute;
+                    display: flex;
+                    top: 0;
+                    width: max-content;
+                    z-index: -1;
+                    border-radius: 1rem;
+                   
+                    img{
+                        width: 20rem;
+                        margin-top: 1rem ;
+                        border-radius: 1rem;
+                    }
+                }
+
+                .name-product{
+                    display: flex;
+                    margin-top: 14rem;
+                    justify-content: space-between;
+                    width: 20rem;
+                    h1{
+                        font-size: 2rem ;
+                        font-weight: 700;
+                    }
+                }
+                .decribe-menu{
+                    width: 20rem;
+                    display: flex;
+                    margin-top: 0.2rem;
+                    .decribe{
+                        padding-right: 3rem;
+                        width: 17rem;
+                        
+                        p{
+                            color: rgb(96, 131, 131);
+                            font-size: 1.3rem;
+                            font-weight: 600;
+                            line-height: 30px;
+                            
+                        }
+                    }
+                    .icon{
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        a{
+                            border-radius: 100%;
+                            background-color: #b5b82b;
+                            padding:0.5rem ;
+                            margin-top: 10px;
+                            i{
+                                padding: 0.5rem;
+                                font-size: 20px;
+                                color: aliceblue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
