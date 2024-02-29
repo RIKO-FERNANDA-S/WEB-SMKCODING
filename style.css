@@ -222,18 +222,20 @@ header .navbar.bg-nav-down {
   color: rgb(255, 148, 9);
 }
 
-
-
 /* POPULAR NOW END*/
 
-
-
 /* HERO END */
+
+
 
 /* SERVICE START */
 
 .service{
+<<<<<<< HEAD
   height: 140vh;
+=======
+  height: 150vh;
+>>>>>>> edb68ebca1e6569784a507968a336b5cf2de9cd2
   padding-top: 25rem;
 }
 
